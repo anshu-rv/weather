@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4(c^-=*2vp7rfuu+a3-ue!+32-zw6cvm!klzgt#)enfqkk==$j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["weather-csau.onrender.com"]
 
 
 # Application definition
